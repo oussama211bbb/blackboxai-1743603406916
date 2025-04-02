@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Web Developer</title>
+  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+  <!-- Navigation Bar (same as index.html) -->
+  <header class="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm shadow-sm z-50">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-xl font-bold text-gray-900 dark:text-white" data-translate="welcome">Portfolio</a>
+      <div class="flex items-center space-x-4">
+        <!-- Language Switcher and Theme Toggle same as index.html -->
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-20">
+    <!-- About Section -->
+    <section class="container mx-auto px-4 py-12">
+      <h2 class="text-3xl font-bold text-center mb-12" data-translate="about">About Me</h2>
+      
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+        <!-- Profile Image -->
+        <div class="w-full md:w-1/3">
+          <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" 
+               alt="Profile Photo" 
+               class="rounded-full w-64 h-64 object-cover mx-auto border-4 border-gray-200 dark:border-gray-700">
+        </div>
+        
+        <!-- Bio Content -->
+        <div class="w-full md:w-2/3">
+          <p class="text-lg mb-6" data-translate="about_bio">
+            I'm a passionate full-stack developer with 5+ years of experience building web applications.
+            Specializing in JavaScript frameworks and cloud technologies, I create performant, scalable solutions.
+          </p>
+          
+          <!-- Skills Grid -->
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+            <div class="skill-item flex items-center">
+              <i class="fab fa-react text-blue-500 mr-2 text-xl"></i>
+              <span>React</span>
+            </div>
+            <div class="skill-item flex items-center">
+              <i class="fab fa-node-js text-green-500 mr-2 text-xl"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-item flex items-center">
+              <i class="fab fa-js-square text-yellow-500 mr-2 text-xl"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-item flex items-center">
+              <i class="fab fa-python text-blue-400 mr-2 text-xl"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill-item flex items-center">
+              <i class="fab fa-aws text-orange-500 mr-2 text-xl"></i>
+              <span>AWS</span>
+            </div>
+            <div class="skill-item flex items-center">
+              <i class="fas fa-database text-gray-500 mr-2 text-xl"></i>
+              <span>MongoDB</span>
+            </div>
+          </div>
+
+          <!-- Experience Section -->
+          <h3 class="text-2xl font-bold mt-12 mb-6" data-translate="experience_title">Work Experience</h3>
+          <!-- Experience items will be added here -->
+
+          <!-- Education Section -->
+          <h3 class="text-2xl font-bold mt-12 mb-6" data-translate="education_title">Education</h3>
+          <!-- Education items will be added here -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

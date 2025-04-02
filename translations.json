@@ -1,0 +1,118 @@
+{
+  "en": {
+    "welcome": "Welcome to my portfolio",
+    "about": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "hero_title": "Full-Stack Web Developer",
+    "hero_subtitle": "Building modern web applications with React, Node.js, and Tailwind",
+    "cta_button": "View Projects",
+    "theme_toggle": "Toggle Dark Mode",
+    "language_switch": "Language",
+    "about_bio": {
+      "en": "I'm a passionate full-stack developer with 5+ years of experience building web applications. Specializing in JavaScript frameworks and cloud technologies, I create performant, scalable solutions.",
+      "fr": "Je suis un développeur full-stack passionné avec plus de 5 ans d'expérience dans la création d'applications web. Spécialisé dans les frameworks JavaScript et les technologies cloud, je crée des solutions performantes et évolutives.",
+      "ar": "أنا مطور فول ستاك متحمس مع خبرة تزيد عن 5 سنوات في بناء تطبيقات الويب. متخصص في أطر عمل جافا سكريبت وتقنيات السحابة، أصنع حلولاً عالية الأداء وقابلة للتطوير."
+    },
+    "skills_title": {
+      "en": "Technical Skills",
+      "fr": "Compétences Techniques",
+      "ar": "المهارات التقنية"
+    },
+    "experience_title": {
+      "en": "Work Experience",
+      "fr": "Expérience Professionnelle",
+      "ar": "الخبرة العملية"
+    },
+    "education_title": {
+      "en": "Education",
+      "fr": "Formation",
+      "ar": "التعليم"
+    },
+    "filter_all": {
+      "en": "All",
+      "fr": "Tous",
+      "ar": "الكل"
+    },
+    "filter_frontend": {
+      "en": "Frontend",
+      "fr": "Frontend",
+      "ar": "واجهة المستخدم"
+    },
+    "filter_backend": {
+      "en": "Backend",
+      "fr": "Backend",
+      "ar": "الخلفية"
+    },
+    "filter_fullstack": {
+      "en": "Fullstack",
+      "fr": "Fullstack",
+      "ar": "متكامل"
+    },
+    "project_code": {
+      "en": "Code",
+      "fr": "Code",
+      "ar": "الكود"
+    },
+    "project_live": {
+      "en": "Live",
+      "fr": "Démo",
+      "ar": "معاينة"
+    },
+    "send_message": {
+      "en": "Send Message",
+      "fr": "Envoyer le message",
+      "ar": "إرسال الرسالة"
+    },
+    "get_in_touch": {
+      "en": "Get in Touch",
+      "fr": "Contactez-moi",
+      "ar": "تواصل معي"
+    },
+    "follow_me": {
+      "en": "Follow Me",
+      "fr": "Suivez-moi",
+      "ar": "تابعني"
+    },
+    "contact_name": {
+      "en": "Your Name",
+      "fr": "Votre nom",
+      "ar": "اسمك"
+    },
+    "contact_email": {
+      "en": "Email Address",
+      "fr": "Adresse email",
+      "ar": "البريد الإلكتروني"
+    },
+    "contact_message": {
+      "en": "Message",
+      "fr": "Message",
+      "ar": "الرسالة"
+    }
+  },
+  "fr": {
+    "welcome": "Bienvenue sur mon portfolio",
+    "about": "À propos",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact",
+    "hero_title": "Développeur Full-Stack",
+    "hero_subtitle": "Création d'applications web modernes avec React, Node.js et Tailwind",
+    "cta_button": "Voir les projets",
+    "theme_toggle": "Mode sombre",
+    "language_switch": "Langue"
+  },
+  "ar": {
+    "welcome": "مرحبًا بكم في ملفي الشخصي",
+    "about": "معلومات عني",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "contact": "اتصل بي",
+    "hero_title": "مطور ويب فول ستاك",
+    "hero_subtitle": "بناء تطبيقات ويب حديثة باستخدام React و Node.js و Tailwind",
+    "cta_button": "عرض المشاريع",
+    "theme_toggle": "تبديل الوضع المظلم",
+    "language_switch": "اللغة"
+  }
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Web Developer</title>
+  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+  <!-- Navigation Bar -->
+  <header class="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm shadow-sm z-50">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-xl font-bold text-gray-900 dark:text-white" data-translate="welcome">Portfolio</a>
+      <div class="flex items-center space-x-4">
+        <!-- Language Switcher and Theme Toggle same as index.html -->
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-20">
+    <section class="container mx-auto px-4 py-12">
+      <h2 class="text-3xl font-bold text-center mb-12" data-translate="projects">Projects</h2>
+      
+      <!-- Project Filter -->
+      <div class="flex justify-center mb-8">
+        <div class="flex space-x-2">
+          <button class="filter-btn active" data-filter="all" data-translate="filter_all">All</button>
+          <button class="filter-btn" data-filter="frontend" data-translate="filter_frontend">Frontend</button>
+          <button class="filter-btn" data-filter="backend" data-translate="filter_backend">Backend</button>
+          <button class="filter-btn" data-filter="fullstack" data-translate="filter_fullstack">Fullstack</button>
+        </div>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 - E-commerce -->
+        <div class="project-card" data-category="fullstack">
+          <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" 
+               alt="E-commerce Platform" 
+               class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">E-commerce Platform</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+              Full-featured online store with payment integration and admin dashboard
+            </p>
+            <div class="flex space-x-2">
+              <span class="tech-tag bg-blue-100 dark:bg-blue-900">React</span>
+              <span class="tech-tag bg-green-100 dark:bg-green-900">Node.js</span>
+              <span class="tech-tag bg-yellow-100 dark:bg-yellow-900">MongoDB</span>
+            </div>
+            <div class="mt-4 flex space-x-3">
+              <a href="#" class="project-link">
+                <i class="fab fa-github"></i> <span data-translate="project_code">Code</span>
+              </a>
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i> <span data-translate="project_live">Live</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 - Task Manager -->
+        <div class="project-card" data-category="frontend">
+          <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" 
+               alt="Task Manager" 
+               class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Task Manager</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+              Interactive task management application with drag-and-drop functionality
+            </p>
+            <div class="flex space-x-2">
+              <span class="tech-tag bg-blue-100 dark:bg-blue-900">React</span>
+              <span class="tech-tag bg-purple-100 dark:bg-purple-900">Redux</span>
+              <span class="tech-tag bg-pink-100 dark:bg-pink-900">Firebase</span>
+            </div>
+            <div class="mt-4 flex space-x-3">
+              <a href="#" class="project-link">
+                <i class="fab fa-github"></i> <span data-translate="project_code">Code</span>
+              </a>
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i> <span data-translate="project_live">Live</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 - API Service -->
+        <div class="project-card" data-category="backend">
+          <img src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg" 
+               alt="API Service" 
+               class="w-full h-48 object-cover rounded-t-lg">
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">REST API Service</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+              Scalable microservice architecture with JWT authentication
+            </p>
+            <div class="flex space-x-2">
+              <span class="tech-tag bg-green-100 dark:bg-green-900">Node.js</span>
+              <span class="tech-tag bg-yellow-100 dark:bg-yellow-900">MongoDB</span>
+              <span class="tech-tag bg-red-100 dark:bg-red-900">Redis</span>
+            </div>
+            <div class="mt-4 flex space-x-3">
+              <a href="#" class="project-link">
+                <i class="fab fa-github"></i> <span data-translate="project_code">Code</span>
+              </a>
+              <a href="#" class="project-link">
+                <i class="fas fa-external-link-alt"></i> <span data-translate="project_live">Live</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

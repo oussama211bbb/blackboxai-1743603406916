@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Web Developer</title>
+  <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+  <!-- Navigation Bar -->
+  <header class="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm shadow-sm z-50">
+    <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-xl font-bold text-gray-900 dark:text-white" data-translate="welcome">Portfolio</a>
+      <div class="flex items-center space-x-4">
+        <!-- Language Switcher and Theme Toggle same as index.html -->
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-20">
+    <section class="container mx-auto px-4 py-12">
+      <h2 class="text-3xl font-bold text-center mb-12" data-translate="contact">Contact</h2>
+      
+      <div class="flex flex-col lg:flex-row gap-12">
+        <!-- Contact Form -->
+        <div class="w-full lg:w-1/2">
+          <form class="space-y-6">
+            <div>
+              <label for="name" class="block mb-2" data-translate="contact_name">Your Name</label>
+              <input type="text" id="name" class="w-full px-4 py-2 rounded border border-gray-300 dark:border-gray-700 bg-transparent">
+            </div>
+            <div>
+              <label for="email" class="block mb-2" data-translate="contact_email">Email Address</label>
+              <input type="email" id="email" class="w-full px-4 py-2 rounded border border-gray-300 dark:border-gray-700 bg-transparent">
+            </div>
+            <div>
+              <label for="message" class="block mb-2" data-translate="contact_message">Message</label>
+              <textarea id="message" rows="5" class="w-full px-4 py-2 rounded border border-gray-300 dark:border-gray-700 bg-transparent"></textarea>
+            </div>
+            <button type="submit" class="cta-button w-full" data-translate="send_message">Send Message</button>
+          </form>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="w-full lg:w-1/2">
+          <div class="space-y-6">
+            <div>
+              <h3 class="text-xl font-bold mb-4" data-translate="get_in_touch">Get in Touch</h3>
+              <p class="text-gray-600 dark:text-gray-300">
+                Feel free to reach out for collaborations or just to say hello!
+              </p>
+            </div>
+            
+            <div class="space-y-4">
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-envelope text-primary-color text-xl"></i>
+                <span>contact@developer.com</span>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-phone-alt text-primary-color text-xl"></i>
+                <span>+1 (555) 123-4567</span>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i class="fas fa-map-marker-alt text-primary-color text-xl"></i>
+                <span>San Francisco, CA</span>
+              </div>
+            </div>
+            
+            <!-- Social Links -->
+            <div class="pt-4">
+              <h4 class="text-lg font-semibold mb-4" data-translate="follow_me">Follow Me</h4>
+              <div class="flex space-x-4">
+                <a href="#" class="social-icon">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
